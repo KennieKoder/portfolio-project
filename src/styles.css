@@ -1,0 +1,17 @@
+/* font-family: 'Comfortaa',
+cursive;
+font-family: 'Roboto Mono',
+monospace; */
+body {
+    background-color: #1e1e1e;
+}
+
+h1 {
+    font-family: 'Comfortaa', cursive;
+    color: white;
+}
+
+p {
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+}
