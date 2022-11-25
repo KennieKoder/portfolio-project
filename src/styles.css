@@ -8,14 +8,50 @@ body {
 
 h1 {
     font-family: 'Comfortaa', cursive;
+    font-size: 70px;
     color: white;
 }
 
 h2 {
-    font-family: 'roboto Mono', monospace;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 35px;
     color: white;
 }
+
 p {
     font-family: 'Roboto Mono', monospace;
     color: white;
+}
+
+button {
+    background-color: #3D2E4F;
+    border: none;
+    border-radius: 15px;
+    padding: 25px 50px;
+    font-size: 20px;
+    transition: all 200ms ease-in-out;
+}
+
+button:hover {
+    background-color: #3B3761;
+}
+
+a {
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    background-color: #222222;
+    margin: 80px;
+}
+
+.developer-photo {
+    max-width: 500px;
 }

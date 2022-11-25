@@ -30,10 +30,18 @@
     <title>Front-end Developer - Makenah Dumont</title>
   </head>
   <body>
-    <img src="/media/me.jpg" alt="Developer Photo" />
-    <h1>Makenah Dumont</h1>
-    <h2>Aspiring front-end developer based in Ontario, Canada.</h2>
-    <a href="#">My Porjects</a>
-    <a href="#">Contact Me</a>
+    <div class="hero d-flex flex-row">
+      <img src="/media/me.jpg" alt="Developer Photo" class="developer-photo" />
+      <div class="flex-column ms-5 mt-5">
+        <h1 class="mb-5">Makenah Dumont</h1>
+        <h2 class="mb-5">
+          Aspiring front-end developer based in Ontario, Canada.
+        </h2>
+        <div class="d-flex flex-wrap justify-content-evenly">
+          <button><a href="#">My Projects</a></button>
+          <button><a href="#">Contact Me</a></button>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
