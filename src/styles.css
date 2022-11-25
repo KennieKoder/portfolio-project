@@ -11,6 +11,10 @@ h1 {
     color: white;
 }
 
+h2 {
+    font-family: 'roboto Mono', monospace;
+    color: white;
+}
 p {
     font-family: 'Roboto Mono', monospace;
     color: white;
