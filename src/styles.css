@@ -20,9 +20,18 @@ h2 {
     margin-bottom: 120px;
 }
 
+h3 {
+    font-family: 'Comfortaa', cursive;
+    color: white;
+    text-align: center;
+    font-size: 80px;
+}
+
 p {
     font-family: 'Roboto Mono', monospace;
     color: white;
+    font-size: 45px;
+    line-height: 85px;
 }
 
 button {
@@ -61,7 +70,16 @@ a:hover {
 }
 
 .developer-photo {
-    max-width: 500px;
+    border-radius: 15px;
+}
+
+.paragraphs {
+    margin: 0 auto;
+    padding: 50px 15%;
+}
+
+.about-me {
+    padding-top: 60px;
 }
 
 @media (max-width: 800px) {
@@ -72,6 +90,14 @@ a:hover {
     .hero-text {
         text-align: center;
     }
+    .about-me {
+        padding: 10px
+    }
+    .paragraphs {
+        padding: 25px;
+        margin: 0 auto;
+        text-align: center;
+    }
     h1 {
         font-size: 50px;
         margin: 10px 10px;
@@ -79,6 +105,15 @@ a:hover {
     h2 {
         font-size: 20px;
         margin: 10px 10px;
+    }
+    h3 {
+        font-size: 30px;
+        margin: 10px 10px;
+    }
+
+    p {
+        font-size: 15px;
+        line-height: 35px;
     }
     button {
         font-size: 15px;
@@ -89,15 +124,26 @@ a:hover {
 @media (max-width: 1200px) and (min-width: 801px) {
     h1 {
         font-size: 55px;
-        margin: 10px 10px;
+        margin: 10px;
     }
     h2 {
         font-size: 25px;
-        margin: 10px 10px;
+        margin: 10px;
+    }
+    h3 {
+        font-size: 40px;
+        margin: 10px;
+    }
+    p {
+        font-size: 20px;
+        line-height: 40px;
     }
     button {
         font-size: 20px;
         padding: 20px 10px;
+    }
+    .about-me {
+        padding: 10px;
     }
     
 }
@@ -105,14 +151,25 @@ a:hover {
 @media (max-width: 1700px) and (min-width: 1201px) {
     h1 {
         font-size: 70px;
-        margin: 10px 10px;
+        margin: 10px;
     }
     h2 {
         font-size: 35px;
-        margin: 10px 10px;
+        margin: 10px;
+    }
+    h3 {
+        font-size: 60px;
+        margin: 10px;
+    }
+    p {
+        font-size: 25px;
+        line-height: 45px;
     }
     button {
         font-size: 25px;
         padding: 30px 20px;
+    }
+    .about-me {
+        padding: 15px;
     }
 }
