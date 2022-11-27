@@ -63,3 +63,56 @@ a:hover {
 .developer-photo {
     max-width: 500px;
 }
+
+@media (max-width: 800px) {
+    .hero {
+        margin: 20px;
+        padding: 10px 10px;
+    }
+    .hero-text {
+        text-align: center;
+    }
+    h1 {
+        font-size: 50px;
+        margin: 10px 10px;
+    }
+    h2 {
+        font-size: 20px;
+        margin: 10px 10px;
+    }
+    button {
+        font-size: 15px;
+        padding: 20px 10px;
+    }
+}
+
+@media (max-width: 1200px) and (min-width: 801px) {
+    h1 {
+        font-size: 55px;
+        margin: 10px 10px;
+    }
+    h2 {
+        font-size: 25px;
+        margin: 10px 10px;
+    }
+    button {
+        font-size: 20px;
+        padding: 20px 10px;
+    }
+    
+}
+
+@media (max-width: 1700px) and (min-width: 1201px) {
+    h1 {
+        font-size: 70px;
+        margin: 10px 10px;
+    }
+    h2 {
+        font-size: 35px;
+        margin: 10px 10px;
+    }
+    button {
+        font-size: 25px;
+        padding: 30px 20px;
+    }
+}
