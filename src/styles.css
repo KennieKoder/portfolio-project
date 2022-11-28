@@ -76,6 +76,12 @@ a:hover {
     padding: 20px 10px;
 }
 
+.work-inquiry {
+    background-color: var(--text-background-color);
+    border-radius: 10px;
+    padding: 20px;
+}
+
 .hero-text {
     margin: auto;
 }
@@ -161,6 +167,11 @@ a:hover {
         padding: 10px;
     }
 
+    .work-inquiry {
+        margin: 10px;
+        padding: 10px;
+    }
+
     .hero-text {
         text-align: center;
     }
@@ -201,6 +212,11 @@ a:hover {
         .hero {
             margin: 10px;
             padding: 10px;
+        }
+
+        .work-inquiry {
+            margin: 10px;
+            padding: 20px;
         }
     
         .hero-text {
@@ -243,6 +259,11 @@ h1 {
     .hero {
         margin: 10px;
         padding: 10px;
+    }
+
+    .work-inquiry {
+        margin: 10px;
+        padding: 20px;
     }
 
     .hero-text {
