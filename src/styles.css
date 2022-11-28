@@ -37,6 +37,12 @@ h3 {
     font-size: 50px;
 }
 
+h4 {
+    font-family: var(--header-font);
+    color: white;
+    font-size: 30px;
+}
+
 p {
     font-family: var(--primary-font);
     color: white;
@@ -80,6 +86,9 @@ a:hover {
     background-color: var(--text-background-color);
     border-radius: 10px;
     padding: 20px;
+    margin: 0 auto;
+    max-width: 90%;
+    text-align: center;
 }
 
 .hero-text {
@@ -102,6 +111,7 @@ a:hover {
 .about-headline-text {
     text-align: center;
     margin: 30px;
+    padding: 20px;
 }
 
 .about-paragraphs {
@@ -126,7 +136,6 @@ a:hover {
     color: var(--hover-color);
     text-decoration: underline;
 }
-
 @media (max-width:765px) and (min-width: 320px) {
     h1 {
         font-size: 40px;
@@ -168,8 +177,8 @@ a:hover {
     }
 
     .work-inquiry {
-        margin: 10px;
         padding: 10px;
+        margin: 0 auto;
     }
 
     .hero-text {
@@ -215,8 +224,8 @@ a:hover {
         }
 
         .work-inquiry {
-            margin: 10px;
             padding: 20px;
+            margin: 0 auto;
         }
     
         .hero-text {
@@ -262,8 +271,8 @@ h1 {
     }
 
     .work-inquiry {
-        margin: 10px;
         padding: 20px;
+        margin: 0 auto;
     }
 
     .hero-text {
