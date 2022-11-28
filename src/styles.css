@@ -2,40 +2,50 @@
 cursive;
 font-family: 'Roboto Mono',
 monospace; */
+
+:root {
+        --main-color: #3D2E4F;
+        --hover-color: #3B3761;
+        --text-background-color: #222222;
+        --header-font: 'Comfortaa', cursive;
+        --primary-font: 'Roboto Mono',
+            monospace;
+}
+
 body {
     background-color: #1e1e1e;
 }
 
 h1 {
-    font-family: 'Comfortaa', cursive;
+    font-family: var(--header-font);
     font-size: 70px;
     color: white;
     margin-bottom: 20px;
 }
 
 h2 {
-    font-family: 'Roboto Mono', monospace;
+    font-family: var(--primary-font);
     font-size: 35px;
     color: white;
     margin-bottom: 20px;
 }
 
 h3 {
-    font-family: 'Comfortaa', cursive;
+    font-family: var(--header-font);
     color: white;
     text-align: center;
     font-size: 50px;
 }
 
 p {
-    font-family: 'Roboto Mono', monospace;
+    font-family: var(--primary-font);
     color: white;
     font-size: 25px;
     line-height: 80px;
 }
 
 button {
-    background-color: #3D2E4F;
+    background-color: var(--main-color);
     border: none;
     border-radius: 15px;
     padding: 25px 40px;
@@ -45,11 +55,11 @@ button {
 }
 
 button:hover {
-    background-color: #3B3761;
+    background-color: var(--hover-color);
 }
 
 a {
-    font-family: 'Roboto Mono', monospace;
+    font-family: var(--primary-font);
     color: white;
     text-decoration: none;
 }
@@ -60,7 +70,7 @@ a:hover {
 }
 
 .hero {
-    background-color: #222222;
+    background-color: var(--text-background-color);
     border-radius: 10px;
     margin: 60px;
     padding: 20px 10px;
