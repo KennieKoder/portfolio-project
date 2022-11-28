@@ -93,13 +93,31 @@ a:hover {
     padding-top: 40px;
 }
 
-.about-page-text {
+.about-headline-text {
     text-align: center;
     margin: 30px;
 }
 
+.about-paragraphs {
+    line-height: 75px;
+}
+
+.about-bottom-half {
+    margin-top: 100px;
+}
+
 .racoon-img {
     border-radius: 50%;
+}
+
+.insta-link {
+    color: var(--main-color);
+    transition: 200ms all ease-in-out;
+}
+
+.insta-link:hover {
+    color: var(--hover-color);
+    text-decoration: underline;
 }
 
 @media (max-width:765px) and (min-width: 320px) {
