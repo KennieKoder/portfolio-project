@@ -64,6 +64,11 @@ button:hover {
     background-color: var(--hover-color);
 }
 
+label {
+    color: white;
+    font-family: var(--primary-font);
+}
+
 a {
     font-family: var(--primary-font);
     color: white;
@@ -91,12 +96,12 @@ a:hover {
     text-align: center;
 }
 
-.hero-text {
-    margin: auto;
-}
-
 .developer-photo {
     border-radius: 15px;
+}
+
+.icons {
+    color: var(--hover-color);
 }
 
 .paragraphs {
