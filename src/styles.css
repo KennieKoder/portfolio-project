@@ -73,6 +73,7 @@ a {
     font-family: var(--primary-font);
     color: white;
     text-decoration: none;
+    transition: all 200ms ease-in-out;
 }
 
 a:hover {
@@ -80,11 +81,45 @@ a:hover {
     text-decoration: none;
 }
 
+nav li {
+    display: inline;
+    list-style: none;
+    line-height: 40px;
+    margin-left: 50px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+} 
+
+nav a:hover {
+    color: var(--main-color);
+}
+
+.active {
+    color: var(--hover-color);
+    text-decoration: underline;
+}
+
+.active:hover {
+    color: var(--hover-color);
+    text-decoration: underline;
+}
+
 .hero {
     background-color: var(--text-background-color);
     border-radius: 10px;
     margin: 60px;
     padding: 20px 10px;
+}
+
+.nav-bar {
+    margin: 15px 30px;
+}
+
+.gradient-line {
+    max-width: 100%;
 }
 
 .section-highlight {
@@ -102,6 +137,10 @@ a:hover {
 .icons {
     color: var(--hover-color);
     transition: all 200ms ease-in-out;
+}
+
+.logo {
+    max-height: 40px;
 }
 
 .icons:hover {
@@ -179,6 +218,11 @@ a:hover {
         margin: auto;
     }
 
+    nav li {
+        margin-left: 5px;
+        font-size: 12spx;
+    }
+
     .about-me {
         padding: none;
     }
@@ -234,6 +278,8 @@ a:hover {
             padding: 15px 25px;
             margin: 0 auto;
         }
+
+       
     
         .hero {
             margin: 10px;
