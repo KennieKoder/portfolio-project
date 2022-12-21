@@ -105,9 +105,17 @@ a:hover {
 }
 
 .icons:hover {
-    color: var(--main-color)
+    color: var(--main-color);
 }
 
+.email-link {
+    color: var(--hover-color);
+    transition: all 200ms ease-in-out;
+}
+
+.email-link:hover {
+    color: var(--main-color);
+}
 .paragraphs {
     margin: 0 auto;
     padding: 40px 10%;
