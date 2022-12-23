@@ -43,6 +43,13 @@ h4 {
     font-size: 30px;
 }
 
+h5 {
+    font-family: var(--header-font);
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
 p {
     font-family: var(--primary-font);
     color: white;
@@ -97,6 +104,17 @@ nav a:hover {
     color: var(--main-color);
 }
 
+.coloured-text {
+    color: var(--hover-color);
+}
+
+.footer-icons {
+    color: var(--hover-color);
+    transition: all 200ms ease-in-out;
+    font-size: 80px;
+
+}
+
 .active {
     color: var(--hover-color);
     text-decoration: underline;
@@ -114,7 +132,14 @@ nav a:hover {
     padding: 20px 10px;
 }
 
-.nav-bar {
+.dev-comments {
+    font-family: var(--primary-font);
+    color: white;
+    display: block;
+    margin-left: 20px;
+}
+
+.nav-bar, .footer {
     margin: 15px 30px;
 }
 
@@ -143,7 +168,7 @@ nav a:hover {
     max-height: 40px;
 }
 
-.icons:hover {
+.icons:hover, .footer-icons:hover, .email-link:hover, .coloured-text:hover {
     color: var(--main-color);
 }
 
@@ -152,9 +177,6 @@ nav a:hover {
     transition: all 200ms ease-in-out;
 }
 
-.email-link:hover {
-    color: var(--main-color);
-}
 .paragraphs {
     margin: 0 auto;
     padding: 40px 10%;
@@ -206,6 +228,9 @@ nav a:hover {
     h3 {
         font-size: 30px;
     }
+    h5 {
+        font-size: 15px;
+    }
 
     p {
         font-size: 15px;
@@ -223,6 +248,13 @@ nav a:hover {
         font-size: 12spx;
     }
 
+    .footer-icons {
+        font-size: 40px;
+    }
+
+    .dev-comments {
+        font-size: 10px;
+    }
     .about-me {
         padding: none;
     }
