@@ -18,9 +18,9 @@ body {
 
 h1 {
     font-family: var(--header-font);
-    font-size: 70px;
+    font-size: 65px;
     color: white;
-    margin-bottom: 20px;
+    margin: 20px 0px;
 }
 
 h2 {
@@ -240,7 +240,7 @@ nav a:hover {
     button {
         font-size: 15px;
         padding: 10px 20px;
-        margin: auto;
+        margin: 5px;
     }
 
     nav li {
